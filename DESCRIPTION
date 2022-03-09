@@ -1,0 +1,23 @@
+Package: bioshifts.gbif
+Type: Package
+Title: Explore GBIF Data for BIOSHIFTS Species
+Version: 0.0.1
+Authors@R: c(
+    person(given   = "Nicolas",
+           family  = "Casajus",
+           role    = c("aut", "cre"),
+           email   = "nicolas.casajus@fondationbiodiversite.fr",
+           comment = c(ORCID = "0000-0002-5537-5294")))
+Description: Explores GBIF Data for BIOSHIFTS species (WIP).
+URL: https://github.com/FRBCesab/bioshifts-gbif
+BugReports: https://github.com/FRBCesab/bioshifts-gbif/issues
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    devtools,
+    remotes,
+    here,
+    rgbif
