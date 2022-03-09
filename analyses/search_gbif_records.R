@@ -8,7 +8,7 @@
 
 ## Import BIOSHIFTS data ----
 
-tab <- read.csv(here::here("data", "standardized_names_rechecked.csv"))
+bioshifts <- read.csv(here::here("data", "standardized_names_rechecked.csv"))
 
 
 ## Extract species names ----
